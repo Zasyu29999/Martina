@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
    <link rel="stylesheet" href="./CSS/styles.css" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -8,7 +9,45 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Great+Vibes&display=swap" rel="stylesheet" />
   <style>
     
-  
+  nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #eee;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #333;
+      font-weight: bold;
+      padding: 8px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      max-width: 100px; /* Limita ancho */
+      white-space: normal; /* Permite que el texto se divida */
+      word-wrap: break-word;
+      text-align: center;
+      display: inline-block;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav a {
+        width: 80%; /* Ocupa 80% del ancho móvil */
+        max-width: none; /* Elimina límite para que use el 80% */
+        padding: 12px 0;
+      }
+    }
   
     body {
       margin: 0;
