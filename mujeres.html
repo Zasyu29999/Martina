@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Moda Femenina - Boutique Martina</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #fff6f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #d63384;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8em;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 25px;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffe0ef;
+    }
+
+    .encabezado {
+      text-align: center;
+      padding: 30px 20px 10px;
+    }
+
+    .encabezado h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      color: #c2185b;
+    }
+
+    .encabezado p {
+      font-size: 1.1em;
+      color: #666;
+    }
+
+    .productos {
+      padding: 30px 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .producto {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+    }
+
+    .producto:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+
+    .producto img {
+      max-width: 100%;
+      max-height: 300px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .producto p {
+      margin-top: 12px;
+      font-weight: 500;
+      font-size: 1.05em;
+      color: #333;
+    }
+
+    .producto .precio-anterior {
+      text-decoration: line-through;
+      color: #888;
+      font-size: 0.95em;
+    }
+
+    .producto .precio-oferta {
+      color: #d63384;
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">BOUTIQUE MARTINA</div>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="hombres.html">Hombres</a>
+    </nav>
+  </header>
+
+  <div class="encabezado">
+    <h1>Moda Femenina</h1>
+    <p>Estilo y elegancia para cada ocasión</p>
+  </div>
+
+  <div class="productos">
+    <div class="producto"><img src="https://cdn11.bigcommerce.com/s-dkxrakxun7/images/stencil/500x659/products/469/29759/beige_1_757a82dc-b00b-4b07-884d-6b4f6564fd2c__37701.1736975294.jpg?c=1"><p>Blusa Manga 3/4 – S/.69.95</p></div>
+    <div class="producto"><img src="https://cdn11.bigcommerce.com/s-dkxrakxun7/images/stencil/500x659/products/833/35945/beige_4__58418.1748462737.jpg?c=1"><p>Polo manga largo – S/.109.90</p></div>
+    <div class="producto"><img src="https://cdn11.bigcommerce.com/s-dkxrakxun7/images/stencil/500x659/products/832/35926/NEGRO_1__31666.1748456846.jpg?c=1"><p>Pantalón moda – S/.139.90</p></div>
+    <div class="producto"><img src="https://cdn11.bigcommerce.com/s-dkxrakxun7/images/stencil/500x659/products/831/35903/camello_1__06537.1747862929.jpg?c=1"><p>Casaca corta – S/.189.90</p></div>
+    <div class="producto"><img src="https://cdn11.bigcommerce.com/s-dkxrakxun7/images/stencil/500x659/products/830/35883/beige_3__59041.1747862172.jpg?c=1"><p>Poncho cuello alto – S/.149.90</p></div>
+    <div class="producto"><img src="https://cdn11.bigcommerce.com/s-dkxrakxun7/images/stencil/500x659/products/829/35878/acero_1__24032.1747861307.jpg?c=1"><p>Chompa clásica – S/.89.90</p></div>
+    <div class="producto"><img src="https://cdn11.bigcommerce.com/s-dkxrakxun7/images/stencil/500x659/products/827/35843/GRIS_MELANGE_4__16396.1747858658.jpg?c=1"><p>Abrigo cuello sport – S/.129.90</p></div>
+    <div class="producto"><img src="https://cdn11.bigcommerce.com/s-dkxrakxun7/images/stencil/500x659/products/826/35827/chocolate_4__72240.1747857477.jpg?c=1"><p>Polo drapeado – S/.109.90</p></div>
+
+    <!-- Productos adicionales -->
+    <div class="producto"><img src="https://cdn11.bigcommerce.com/s-dkxrakxun7/images/stencil/500x659/products/749/34901/beige_2__92599.1741365721.jpg?c=1"><p>Polo clásico cuello V – S/.49.90</p></div>
+    <div class="producto"><img src="https://cdn11.bigcommerce.com/s-dkxrakxun7/images/stencil/500x659/products/745/34866/beige_3__67587.1741361183.jpg?c=1"><p>Vestido manga 3/4 escote redondo<br><span class="precio-anterior">S/.189.90</span> <span class="precio-oferta">S/.132.93</span></p></div>
+    <div class="producto"><img src="https://cdn11.bigcommerce.com/s-dkxrakxun7/images/stencil/500x659/products/739/34803/fucsia_3__53335.1741295953.jpg?c=1"><p>Blusa manga corta abuchonada<br><span class="precio-anterior">S/.119.90</span> <span class="precio-oferta">S/.59.95</span></p></div>
+    <div class="producto"><img src="https://cdn11.bigcommerce.com/s-dkxrakxun7/images/stencil/500x659/products/689/34169/morado_1__14543.1737666020.jpg?c=1"><p>Vestido corto con tiras anchas y cinturón – S/.89.95</p></div>
+    <div class="producto"><img src="https://img.kwcdn.com/thumbnail/s/724d35cf67f5971828ed5a939e8e08c0_d8344ae83338.jpg?imageView2/2/w/1300/q/80/format/webp"><p>Casaca polera crop con capucha y cierre – S/.59.95</p></div>
+    <div class="producto"><img src="https://hmperu.vtexassets.com/unsafe/540x0/center/middle/https%3A%2F%2Fhmperu.vtexassets.com%2Farquivos%2Fids%2F5114974-560-auto%2FCasaca-polera-corta-con-capucha-y-cierre---Negro---H-M-PE.jpg%3Fv%3D638803246481100000"><p>Casaca polera corta con capucha – S/.69.95</p></div>
+    <div class="producto"><img src="https://hmperu.vtexassets.com/unsafe/540x0/center/middle/https%3A%2F%2Fhmperu.vtexassets.com%2Farquivos%2Fids%2F5307695-560-auto%2FCasaca-polera-crop-con-capucha-y-cierre---Amarillo-claro---H-M-PE.jpg%3Fv%3D638826952715000000"><p>Casaca crop capucha (amarillo) – S/.59.95</p></div>
+  </div>
+
+</body>
+</html>

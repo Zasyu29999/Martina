@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acerca de - Boutique Martina</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffdfd;
+      color: #333;
+    }
+
+    header {
+      background-color: #971149;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 30px;
+    }
+
+    header h1 {
+      margin: 0;
+      color: white;
+      font-size: 2rem;
+    }
+
+    nav {
+      display: flex;
+      gap: 25px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffebee;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #880e4f;
+      margin-bottom: 30px;
+    }
+
+    .quienes-somos {
+      background-color: #fdecef;
+      border-left: 6px solid #e91e63;
+      padding: 25px;
+      border-radius: 12px;
+      margin-bottom: 40px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+      text-align: justify;
+      text-indent: 2em;
+      line-height: 1.7;
+    }
+
+    .cuadros {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .cuadro {
+      flex: 1;
+      min-width: 300px;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+      text-align: justify;
+      text-indent: 2em;
+      line-height: 1.7;
+    }
+
+    .mision {
+      background-color: #ffe0b2;
+    }
+
+    .mision h2 {
+      text-align: center;
+      color: #e65100;
+    }
+
+    .diferencia {
+      background-color: #dcedc8;
+    }
+
+    .diferencia h2 {
+      text-align: center;
+      color: #558b2f;
+    }
+
+    footer {
+      background-color: #f06292;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      }
+
+      nav {
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .cuadros {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Boutique Martina</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="mujeres.html">Mujeres</a>
+      <a href="hombres.html">Hombres</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>¿Quiénes Somos?</h1>
+
+    <div class="quienes-somos">
+      Mi emprendimiento consiste en ofrecer prendas de telas como <strong>Algodón</strong>, por ser fresco, suave y cómodo para el uso diario. <strong>Denim</strong>, ideal para jeans y casacas duraderas. <strong>Poliéster</strong>, por ser ligero, fácil de mantener y más económico. Y <strong>Lycra</strong>, perfecta para ropa ajustada y deportiva, muy popular entre los jóvenes. Estas telas son ideales para el clima cálido de Mochumí y están dirigidas a un público joven, entre 18 y 30 años, que busca moda y estilo actual.
+    </div>
+
+    <div class="cuadros">
+      <div class="cuadro mision">
+        <h2>🌟 Nuestra Misión</h2>
+        Ofrecer prendas de vestir que sean cómodas y accesibles para hombres y mujeres del distrito de Mochumí, brindando atención personalizada y promoviendo un estilo inclusivo y actual, dirigido especialmente a jóvenes de 18 a 30 años.
+      </div>
+
+      <div class="cuadro diferencia">
+        <h2>💡 ¿En qué nos diferenciamos?</h2>
+        Nos dedicamos a la venta de prendas de vestir que destacan por su resistencia y comodidad, a precios accesibles para todos. Contamos con una amplia variedad de polos, camisas, pantalones, blusas y casacas ideales para cualquier ocasión. Además, ofrecemos prendas reversibles que cambian de color al darles la vuelta, ¡dos estilos en una sola prenda!
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Boutique Martina - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Moda Masculina - Boutique Martina</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #fafafa;
+      color: #333;
+    }
+
+    header {
+      background-color: #1c1c1c;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8em;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 25px;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #f39c12;
+    }
+
+    .encabezado {
+      text-align: center;
+      padding: 30px 20px 10px;
+    }
+
+    .encabezado h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .encabezado p {
+      font-size: 1.1em;
+      color: #666;
+    }
+
+    .productos {
+      padding: 30px 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .producto {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+    }
+
+    .producto:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+
+    .producto img {
+      max-width: 100%;
+      max-height: 300px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    .producto p {
+      margin-top: 12px;
+      font-weight: 500;
+      font-size: 1.05em;
+      color: #222;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">BOUTIQUE MARTINA</div>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="mujeres.html">Mujeres</a>
+    </nav>
+  </header>
+
+  <div class="encabezado">
+    <h1>Moda Masculina</h1>
+    <p>Descubre nuestra colección exclusiva para el hombre moderno</p>
+  </div>
+
+  <div class="productos">
+    <div class="producto"><img src="https://thecult.vtexassets.com/arquivos/ids/195754-450-450?v=638828549778670000&width=450&height=450&aspect=true"><p>Bermuda Signature – S/.199.00</p></div>
+    <div class="producto"><img src="https://thecult.vtexassets.com/arquivos/ids/187615-450-450?v=638544943813800000&width=450&height=450&aspect=true"><p>Camisa manga corta – S/.169.00</p></div>
+    <div class="producto"><img src="https://thecult.vtexassets.com/arquivos/ids/195674-450-450?v=638828293253000000&width=450&height=450&aspect=true"><p>Pantalón semipitillo – S/.99.99</p></div>
+    <div class="producto"><img src="https://thecult.vtexassets.com/arquivos/ids/195084-450-450?v=638808693651100000&width=450&height=450&aspect=true"><p>Pantalón drill – S/.123.00</p></div>
+    <div class="producto"><img src="https://thecult.vtexassets.com/arquivos/ids/194114-450-450?v=638754206245500000&width=450&height=450&aspect=true"><p>Polo cuello box negro – S/.125.30</p></div>
+    <div class="producto"><img src="https://thecult.vtexassets.com/arquivos/ids/194134-450-450?v=638754209382430000&width=450&height=450&aspect=true"><p>Polo cuello box marfil – S/.125.30</p></div>
+    <div class="producto"><img src="https://thecult.vtexassets.com/arquivos/ids/193019-450-450?v=638736694501930000&width=450&height=450&aspect=true"><p>Abrigo largo – S/.234.30</p></div>
+    <div class="producto"><img src="https://thecult.vtexassets.com/arquivos/ids/187286-450-450?v=638538299751730000&width=450&height=450&aspect=true"><p>Saco corto – S/.224.50</p></div>
+
+    <!-- Nuevos productos -->
+    <div class="producto"><img src="https://hmperu.vtexassets.com/unsafe/540x0/center/middle/https%3A%2F%2Fhmperu.vtexassets.com%2Farquivos%2Fids%2F5200211-560-auto%2FSobrecamisa-de-fieltro-Regular-Fit---Beige-oscuro---H-M-PE.jpg%3Fv%3D638804506711770000"><p>Sobrecamisa de fieltro Regular Fit – S/.109.00</p></div>
+    <div class="producto"><img src="https://hmperu.vtexassets.com/unsafe/540x0/center/middle/https%3A%2F%2Fhmperu.vtexassets.com%2Farquivos%2Fids%2F5173917-560-auto%2FCasaca-de-carnero-sintetico-Loose-Fit---Negro---H-M-PE.jpg%3Fv%3D638803589843730000"><p>Casaca de carnero sintético Loose Fit – S/.219.00</p></div>
+    <div class="producto"><img src="https://topitop.vteximg.com.br/arquivos/ids/383764-432-551/3105642_2.jpg?v=638816351973700000"><p>Pantalón Hombre Charlie Negro – S/.169.90</p></div>
+    <div class="producto"><img src="https://topitop.vteximg.com.br/arquivos/ids/383812-432-551/3080992_2.jpg?v=638816357601330000"><p>Casaca Hombre Puller Camel – S/.98.95</p></div>
+    <div class="producto"><img src="https://topitop.vteximg.com.br/arquivos/ids/383736-432-551/2077332_2.jpg?v=638816348402900000"><p>Polo Cuello Camisa Hombre Leny Blanco – S/.49.45</p></div>
+    <div class="producto"><img src="https://topitop.vteximg.com.br/arquivos/ids/383824-432-551/3083343_2.jpg?v=638816359164030000"><p>Polo Hombre Supre Blanco – S/.38.45</p></div>
+    <div class="producto"><img src="https://topitop.vteximg.com.br/arquivos/ids/385788-302-385/3125682_2.jpg?v=638838728898470000"><p>Jean Hombre Murphy Grafito – S/.93.45</p></div>
+    <div class="producto"><img src="https://topitop.vteximg.com.br/arquivos/ids/382565-302-385/3129866_2.jpg?v=638804280379730000"><p>Jean Hombre Yenko Dirty Cristal – S/.93.45</p></div>
+    <div class="producto"><img src="https://topitop.vteximg.com.br/arquivos/ids/366492-302-385/1636530_2.jpg?v=638630743728700000"><p>Jean Hombre Robert Negro Denim – S/.65.95</p></div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <link rel="stylesheet" href="./CSS/styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Boutique Martina</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Great+Vibes&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+
+    header {
+      background-color: #971149;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 40px;
+      flex-wrap: wrap;
+    }
+
+    .logo-container {
+      text-align: left;
+    }
+
+    .logo {
+      font-size: 2.5em;
+      font-weight: 700;
+      font-family: 'Poppins', sans-serif;
+      letter-spacing: 2px;
+      color: #ffffff;
+      text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.2);
+    }
+
+    .logo-sub {
+      font-size: 1.2em;
+      font-family: 'Great Vibes', cursive;
+      color: #ffffff;
+      margin-top: 3px;
+    }
+
+    nav {
+      display: flex;
+      gap: 25px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1em;
+    }
+
+    nav a:hover {
+      color: #f1a6bf;
+    }
+
+    .bienvenida {
+      background: linear-gradient(90deg, #cc6c8c, #cc6c8c);
+      color: #33121f;
+      text-align: center;
+      padding: 80px 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .bienvenida img.marca-agua {
+      position: absolute;
+      opacity: 0.15;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .bienvenida h1 {
+      margin-top: 60px;
+      font-size: 2.8em;
+      position: relative;
+      z-index: 1;
+    }
+
+    .bienvenida p {
+      margin-top: 15px;
+      font-size: 1.2em;
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .novedades {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .novedades h2 {
+      font-size: 2.2em;
+      color: #c2185b;
+      margin-bottom: 10px;
+    }
+
+    .novedades p {
+      font-size: 1.1em;
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    .novedades img {
+      width: 90%;
+      max-width: 1000px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .footer-info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 30px;
+      margin-bottom: 25px;
+    }
+
+    .footer-info div {
+      min-width: 200px;
+    }
+
+    .footer-info h4 {
+      margin-bottom: 10px;
+      font-size: 1.1em;
+      color: #f48fb1;
+    }
+
+    .footer-info p, .footer-info a {
+      color: #ccc;
+      font-size: 0.95em;
+      text-decoration: none;
+    }
+
+    .footer-info a:hover {
+      text-decoration: underline;
+    }
+
+    .medios-pago img {
+      height: 35px;
+      margin: 5px;
+      vertical-align: middle;
+    }
+
+    .copy {
+      font-size: 0.9em;
+      color: #999;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .logo-container {
+        margin-bottom: 15px;
+      }
+
+      nav {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <div class="logo">BOUTIQUE MARTINA</div>
+      <div class="logo-sub">(Cambia tu estilo, cambia tu vida)</div>
+    </div>
+    <nav>
+      <a href="mujeres.html">Mujeres</a>
+      <a href="hombres.html">Hombres</a>
+      <a href="acerca.html">Acerca de Nosotros</a>
+    </nav>
+  </header>
+
+  <section class="bienvenida">
+    <img src="https://thumbs.dreamstime.com/b/blog-femenino-de-moda-accesorios-femeninos-con-fondo-color-rosa-espacio-trabajo-bloggers-laptop-y-para-mujer-productos-ropa-187522017.jpg" class="marca-agua" alt="Logo de fondo">
+    <h1>✨¡Bienvenidos al mundo de la moda!✨</h1>
+    <p>Ofrecemos prendas reversibles que cambian de color al darles la vuelta, ¡dos estilos en una sola prenda!</p>
+  </section>
+
+  <section class="novedades">
+    <h2>✨ ¡Novedades de Temporada!</h2>
+    <p>Descubre los nuevos estilos que tenemos para ti. Renueva tu clóset con nuestras prendas más populares del momento.</p>
+    <img src="https://bellaboutique.com.pe/wp-content/uploads/2025/02/BANNER_WEB_ESCRITORIO.png" alt="Banner de novedades">
+  </section>
+
+  <footer>
+    <div class="footer-info">
+      <div>
+        <h4>Atención al Cliente</h4>
+        <p>WhatsApp: <a href="https://wa.me/51936782760" target="_blank">+51 936 782 760</a></p>
+        <p>Email: <a href="mailto:martinacallaca@gmail.com">martinacallaca@gmail.com</a></p>
+        <p>Dirección: Calle San Isidro, Mochumi - Lambayeque</p>
+      </div>
+      <div>
+        <h4>Información</h4>
+        <p><a href="#">Términos y Condiciones</a></p>
+        <p><a href="#">Políticas de Cambios y Devoluciones</a></p>
+        <p><a href="#">Libro de Reclamaciones</a></p>
+      </div>
+      <div class="medios-pago">
+        <h4>Medios de Pago</h4>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="Visa">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1200px-Mastercard-logo.svg.png" alt="Mastercard">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUPvfAMSMBFjyetN0LjDvXN6vlkiEd3EIMe2pBM58DPfMjxwPBJYvAslLds6-ZsdA1j1g&usqp=CAU" alt="Yape">
+        <img src="https://images.seeklogo.com/logo-png/38/1/plin-logo-png_seeklogo-386806.png" alt="Plin">
+      </div>
+    </div>
+    <p class="copy">&copy; 2025 Boutique Martina</p>
+  </footer>
+
+  <nav>
+    <a href="./index.html">Inicio</a>
+    <a href="./mujeres.html">Mujeres</a>
+    <a href="./hombres.html">Hombres</a>
+    
+    
+  </nav>
+
+</body>
+</html>
